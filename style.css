@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Rosario:wght@400;700&family=Russo+One&display=swap");
+/*Sass template*/
+/*global classes*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*typography classes*/
+.font-rosario {
+  font-family: "Rosario", bold;
+}
+
+.font-russo1 {
+  font-family: "Russo One", bold;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-64 {
+  font-size: 64px;
+}
+
+/*color template*/
+.color-1 {
+  color: #A4907C;
+}
+
+.color-1-bg {
+  background: #A4907C;
+}
+
+.color-2 {
+  color: #916C80;
+}
+
+.color-2-bg {
+  background: #916C80;
+}
+
+.color-3 {
+  color: #48284A;
+}
+
+.color-3-bg {
+  background: #48284A;
+}
+
+.color-4 {
+  color: #FFC6D9;
+}
+
+.color-4-bg {
+  background: #FFC6D9;
+}
+
+.color-5 {
+  color: #FFE1C6;
+}
+
+.color-5-bg {
+  background: #FFE1C6;
+}
+
+.color-6 {
+  color: #FFF7AE;
+}
+
+.color-6-bg {
+  background: #FFF7AE;
+}
+
+/*shop template*/
+#shop .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#shop .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#shop .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#shop .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#shop .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#shop .owl-carousel .owl-nav button.owl-prev span,
+#shop .owl-carousel .owl-nav button.owl-next span {
+  font-size: 36px;
+  color: #916C80;
+  padding: 0 1rem;
+}
+#shop .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#shop .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#shop .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
